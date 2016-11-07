@@ -1,0 +1,44 @@
+body {
+  background: #fff;
+  background-image: url("../jasper.jpg");
+  color: #191970;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.25;
+  font-family: 'Kanit', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+  background-image: url('../img/demo-2-bg.jpg');
+  background-position: center bottom;
+}
+
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+.main-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: normal;
+  font-size: 3em;
+  padding-left: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
